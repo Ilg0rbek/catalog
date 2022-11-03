@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+.formWrapper {
+  min-width: 400px;
+  padding: 10px;
+  max-width: 600px;
+  display: block;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: 0px 9px 37px 10px rgba(34, 60, 80, 0.29);
+  -moz-box-shadow: 0px 9px 37px 10px rgba(34, 60, 80, 0.29);
+  box-shadow: 0px 9px 25px 10px rgba(34, 60, 80, 0.15);
+  transition: 0.4s;
+}
+.form:hover {
+  box-shadow: 0px 9px 30px 10px rgba(34, 60, 80, 0.2);
+}
+
+.forgotPasswordWrapper {
+  margin-top: 30px;
+}
+.forgotPass {
+  margin-top: 25px;
+}
+@media (max-width: 767px) {
+  .formWrapper {
+    min-width: 0px;
+    width: 100%;
+  }
+}

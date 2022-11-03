@@ -1,0 +1,15 @@
+.button {
+  border: 0!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0!important;
+  cursor: pointer;
+  background: none!important;
+  box-shadow: none!important;
+}
+
+.button > svg {
+  width: auto;
+  height: 32px;
+}

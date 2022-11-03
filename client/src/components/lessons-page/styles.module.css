@@ -1,0 +1,333 @@
+.rootWrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lessonsRootWrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: 0.4s;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.lessonsWrapper {
+  width: 20%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+  -moz-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+  box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.15);
+  margin-bottom: 20px;
+  transition: 0.4s;
+  height: 290px;
+}
+
+.lessonsWrapperDesactive {
+  opacity: 0.5;
+  width: 20%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+  -moz-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+  box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.15);
+  margin-bottom: 20px;
+  transition: 0.4s;
+  height: 290px;
+}
+.lessonsWrapper:hover {
+  -webkit-box-shadow: 0px 4px 23px 11px rgba(34, 60, 80, 0.29);
+  -moz-box-shadow: 0px 4px 23px 11px rgba(34, 60, 80, 0.29);
+  box-shadow: 0px 4px 23px 7px rgba(34, 60, 80, 0.15);
+}
+
+.lessonBlockWrapper {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lessonBlockWrapper h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+.lockFromBuy {
+  position: absolute;
+  width: 2.5%;
+  margin-left: 8%;
+  margin-top: -1%;
+  opacity: 1;
+  z-index: 9999;
+
+}
+
+.lessonBlockBody {
+  margin: 10px 0px;
+}
+.lessonBlockProgressBar {
+  width: 100%;
+  height: 6px;
+  border-radius: 15px;
+}
+.text {
+  font-size: 15px;
+}
+.modalTextBlock .title {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.infoField {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.021);
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoField p {
+  width: 50%;
+  text-align: right;
+  width: 50%;
+  font-size: 15px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.infoField p:first-of-type {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+}
+
+.tableWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.tableHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+}
+.tableHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgba(233, 233, 233, 0.384);
+}
+.boldText {
+  font-weight: 600;
+  font-size: 12px;
+}
+.headerItem {
+  flex: 1;
+  border-right: 1px solid rgb(190, 190, 190);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerItem:last-of-type {
+  flex: 1;
+  border-right: none;
+}
+.tableRowBody {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.tableRowBodyItem {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.tableRowBodyItem p {
+  font-size: 10px;
+}
+.tableRowBodyItem p.large {
+  font-size: 12px;
+}
+.panel {
+  padding: 10px 0px !important;
+}
+.emptyText {
+  margin: 10px, 0px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+.breadCrumpWrapper {
+  margin: 20px;
+}
+.info {
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.buttonsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnWrapper {
+  margin-bottom: 15px;
+}
+.modalTitle {
+  align-self: center;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.boldTextLarge {
+  font-weight: 600;
+  font-size: 14px;
+}
+@media (max-width: 1256px) {
+  .lessonsWrapper {
+    width: 30%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    -moz-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.15);
+    transition: 0.4s;
+  }
+  .lessonsWrapperDesactive {
+    width: 30%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    -moz-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.15);
+    transition: 0.4s;
+    opacity: 0.5;
+  }
+
+
+  .lockFromBuy {
+    position: absolute;
+    width: 3.5%;
+    margin-left: 12%;
+    margin-top: -2%;
+    opacity: 1;
+    z-index: 9999;
+
+  }
+}
+@media (max-width: 956px) {
+  .lessonsWrapper {
+    width: 45%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    -moz-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.15);
+    transition: 0.4s;
+  }
+  .lessonsWrapperDesactive {
+    width: 45%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    -moz-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.15);
+    transition: 0.4s;
+    opacity: 0.5;
+  }
+
+
+  .lockFromBuy {
+    position: absolute;
+    width: 5.5%;
+    margin-left: 16%;
+    margin-top: -3%;
+    opacity: 1;
+    z-index: 9999;
+
+  }
+}
+
+.block_flex_lock {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 756px) {
+  .lessonsWrapper {
+    width: 95% !important;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    -moz-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.15);
+    transition: 0.4s;
+  }
+  .lessonsWrapperDesactive {
+    width: 95% !important;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    -moz-box-shadow: 0px 2px 15px 10px rgba(34, 60, 80, 0.29);
+    box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.15);
+    transition: 0.4s;
+    opacity: 0.5;
+  }
+
+
+  .lockFromBuy {
+    position: absolute;
+    width: 9.5%;
+    margin-left: 36%;
+    margin-top: -3%;
+    opacity: 1;
+    z-index: 9999;
+
+  }
+}

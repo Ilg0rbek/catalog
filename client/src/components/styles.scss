@@ -1,0 +1,91 @@
+.breadcrumpWrapper {
+  margin: 10px 20px 10px 20px;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ant-table {
+  display: block;
+
+  @media screen and (max-width: 768px) {
+    &-thead {
+      display: none;
+    }
+
+    &-thead > tr,
+    &-tbody > tr {
+      th,
+      td {
+        &:first-of-type {
+          padding-top: 1rem;
+        }
+
+        &:last-of-type {
+          padding-bottom: 1rem;
+        }
+      }
+
+      > th,
+      > td {
+        display: block;
+        width: auto !important;
+        border: none;
+        padding: 0 1rem;
+        font-size: 1.1rem;
+        &:last-child {
+          border-bottom: 2px dashed rgb(90, 89, 89);
+        }
+      }
+    }
+    .ant-table-cell {
+      font-size: 12px;
+    }
+  }
+}
+
+.show-enter {
+  opacity: 0.01;
+}
+
+.show-enter.show-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.show-leave {
+  opacity: 1;
+}
+
+.show-leave.show-leave-active {
+  opacity: 0.01;
+  transition: opacity 400ms ease-in;
+}
+.show-appear {
+  opacity: 0.01;
+}
+
+.show-appear.show-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  height: 80px !important;
+  width: 80px !important;
+}
+.ant-collapse-content-box {
+  padding: 0px 0px !important;
+}
+.noselect {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -khtml-user-select: none;
+}
+//TODO

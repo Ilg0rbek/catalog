@@ -1,0 +1,101 @@
+.centered {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wordListWrapper {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 0px 35px;
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  transition: 0.4s;
+}
+.headerWrapper {
+  width: 100%;
+  padding: 0px 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerItemWrapper {
+  flex: 2;
+}
+.headerItemWrapperInput {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.topBtnWrapper {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  transition: 0.2s;
+}
+.topBtnWrapper:hover {
+  opacity: 0.9;
+}
+.breadCrumpWrapper {
+  margin: 20px;
+}
+.rowBtn {
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 50px !important;
+  transition: 0.4s;
+}
+.paginationWrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.scrollWrapper {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+@media(max-width: 450px){
+  .headerWrapper {
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .wordListWrapper {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .headerItemWrapper {
+    flex: 1;
+  }
+  .headerWrapper {
+    padding: 0px 10px;
+  }
+  .rowBtn {
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 40px !important;
+  }
+  .topBtnWrapper {
+    right: 20px;
+    bottom: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wordListWrapper {
+    width: 100%;
+    padding: 0px 25px;
+  }
+  .headerWrapper {
+    padding: 0px 25px;
+  }
+}

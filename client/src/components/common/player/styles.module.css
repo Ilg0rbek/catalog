@@ -1,0 +1,28 @@
+.rowBtn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.icon {
+  font-size: 25px;
+}
+.active {
+  border-color: rgb(131, 184, 184) !important;
+}
+.disable {
+  border-color: rgb(146, 151, 151) !important;
+}
+
+@media (max-width: 756px) {
+  .rowBtn {
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+}

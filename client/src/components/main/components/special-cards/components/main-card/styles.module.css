@@ -1,0 +1,100 @@
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 9px 37px 10px rgba(34, 60, 80, 0.29);
+  -moz-box-shadow: 0px 9px 37px 10px rgba(34, 60, 80, 0.29);
+  box-shadow: 1px 14px 25px 10px rgba(34, 60, 80, 0.15);
+}
+
+.image {
+  opacity: 0.9;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  width: 100%;
+  transition: 0.5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.pre {
+  background-color: rgba(255, 251, 251, 0.562);
+  padding: 15px;
+  animation-name: show;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.post {
+  animation-name: slide-bottom;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.container:hover .image {
+  opacity: 0.7;
+}
+
+.container:hover .pre {
+  animation-name: hide;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+.title {
+  text-transform: uppercase;
+  font-size: large;
+  font-size: 24px;
+  letter-spacing: 0.4rem;
+  font-weight: 800;
+}
+.container:hover .post {
+  animation-name: slide-top;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.description {
+  color: black;
+  font-size: 18px;
+  font-style: italic;
+}
+@keyframes hide {
+  0%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes show {
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  50% {
+    top: 45%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes slide-bottom {
+  100% {
+    top: 200%;
+    opacity: 0;
+  }
+}

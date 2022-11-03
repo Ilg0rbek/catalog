@@ -1,0 +1,23 @@
+.rootWrapper {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.mainInfoWrapper {
+  flex: 1;
+  height: 100%;
+  margin: 5px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+.contentInfoWrapper {
+  flex: 1;
+  height: auto;
+  margin: 5px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}

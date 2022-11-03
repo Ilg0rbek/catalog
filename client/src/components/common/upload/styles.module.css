@@ -1,0 +1,35 @@
+.rootWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  transition: 0.4s;
+}
+.rootWrapperShadow {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  transition: 0.4s;
+}
+.rootWrapperShadow:hover {
+  opacity: 0.4;
+  background-color: black;
+}
+.deleteIco {
+  z-index: 10;
+  font-size: 18px;
+}
+

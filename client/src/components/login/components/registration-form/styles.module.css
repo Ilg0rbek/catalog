@@ -1,0 +1,46 @@
+.title {
+  color: #0c0c0c;
+}
+
+.input {
+  width: 100%;
+}
+
+.authButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.authButtons > button, .authButtons > a > button {
+  border: 0!important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  background: #4C75A3!important;
+  padding: 10px 10px!important;
+  position: relative;
+  width: 250px;
+  height: 42px;
+  margin-bottom: 24px;
+}
+
+.authButtons > button:nth-child(2) {
+  background: #4285F4!important;
+}
+
+.authButtons > button > span, .authButtons > a > button > span {
+  text-align: center;
+  width: 100%;
+}
+
+.authButtons > button > svg, .authButtons > a > button > svg {
+  width: auto;
+  height: 32px;
+}
+
+.stretched {
+  width: 40%;
+}

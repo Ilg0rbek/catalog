@@ -1,0 +1,30 @@
+.centered {
+    margin: 30px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.text p { font-weight: bold; }
+.text span { font-weight: 300; margin-bottom: 10px; display: block; }
+
+@media (max-width: 786px) {
+  .centered {
+    width: 90%;
+  }
+
+  .text {
+      text-transform: uppercase;
+      font-size: 15px;
+  }
+
+  .text span { text-transform: none; }
+}

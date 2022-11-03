@@ -1,0 +1,23 @@
+.title {
+  color: rgb(15, 15, 15);
+  text-transform: uppercase;
+  font-size: large;
+  font-size: 26px;
+  letter-spacing: 0.6rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 767px) {
+  .title {
+    color: rgb(15, 15, 15);
+    text-transform: uppercase;
+    font-size: large;
+    font-size: 18px;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+}
+

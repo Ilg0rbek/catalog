@@ -1,0 +1,34 @@
+.formWrapper {
+  margin-top: 50px !important;
+}
+.rootWrapper {
+  margin-top: 30px;
+  width: 33%;
+}
+.input {
+  width: 100% !important;
+}
+.text {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: large;
+  font-size: 18px;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+}
+@media (max-width: 756px) {
+  .formWrapper {
+    margin-top: 20px !important;
+  }
+  .rootWrapper {
+    width: 80%;
+  }
+  .text {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: large;
+    font-size: 14px;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+  }
+}

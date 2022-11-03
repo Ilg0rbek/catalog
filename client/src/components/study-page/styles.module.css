@@ -1,0 +1,39 @@
+.container {
+  padding: 0 15px;
+  height: 80vh !important;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bg {
+  background: #f7f8fb;
+}
+.info {
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.breadCrumpWrapper {
+  margin: 20px;
+}
+.topCentered {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+@media (min-width: 992px) {
+  .section-margin {
+    margin: 100px 0;
+  }
+}
+@media (min-width: 1330px) {
+  .container {
+    padding: 0 calc(50vw - 650px);
+  }
+}

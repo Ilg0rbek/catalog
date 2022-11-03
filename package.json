@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "antd-img-crop": "^3.16.0",
+    "qs": "^6.10.1"
+  }
+}
